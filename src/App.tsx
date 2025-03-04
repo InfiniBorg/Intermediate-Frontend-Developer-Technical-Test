@@ -33,11 +33,11 @@ const App = () => {
     <div className="app-container">
       <header className="header">
         <div className="logo">
-          <i className="fa fa-cloud-sun"></i> {/* Weather icon */}
+          <i className="fa fa-cloud-sun"></i> 
           <h1>Weather Map</h1>
         </div>
         <div className="time-display">
-          <i className="fa fa-clock"></i> {/* Clock Icon */}
+          <i className="fa fa-clock"></i> 
           <span>{currentTime}</span>
         </div>
       </header>
