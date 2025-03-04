@@ -10,7 +10,8 @@ This is an interactive weather map application built with React, TypeScript, and
 The weather data is fetched from the OpenWeatherMap API and displayed in a sidebar while keeping the map interactive.
 
 🛠️ Tech Stack & Libraries Used
-Core Technologies
+
+Core Technologies:
 React – JavaScript library for building UI components.
 TypeScript – Statically typed JavaScript for better code safety.
 React Leaflet – Interactive map rendering using Leaflet.js.
@@ -23,26 +24,24 @@ To ensure the app runs correctly, these libraries were installed:
 
 npm install react react-dom react-leaflet leaflet axios react-bootstrap
 For TypeScript support, these additional types were installed:
-
 npm install --save-dev @types/react-leaflet @types/leaflet
 
 🔧 How to Set Up & Run the Project Locally
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/weather-map-app.git
-cd weather-map-app
-2️⃣ Install Dependencies
+git clone https://github.com/InfiniBorg/Intermediate-Frontend-Developer-Technical-Test 
+cd react-weather-map-test
 
+2️⃣ Install Dependencies
 npm install
 
 3️⃣ Get OpenWeatherMap API Key
 Sign up at OpenWeatherMap.
 Generate a free API key.
 Create a .env file in the root of your project and add:
-
 REACT_APP_WEATHER_API_KEY=your_api_key_here
-4️⃣ Start the Development Server
 
-npm start
+4️⃣ Start the Development Server
+npm start dev
 The app will run at http://localhost:3000.
 
 📂 Project Structure
